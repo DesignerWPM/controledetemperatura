@@ -1,0 +1,21 @@
+{
+  "name": "Controle de Temperatura e Umidade",
+  "short_name": "ControleTemp",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#003366",
+  "description": "Aplicação para controle de temperatura e umidade em diferentes salas.",
+  "icons": [
+    {
+      "src": "images/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
