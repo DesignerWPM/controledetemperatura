@@ -22,94 +22,86 @@
 
         <!-- RM 3 TESLA Section -->
         <div class="card">
-            <h3>RESSONÂNCIA  3 TESLA</h3>
+            <h3>RM 3 TESLA</h3>
             <label for="date1">Data:</label>
             <input type="date" id="date1" name="date1" required>
-
             <label for="time1">Hora:</label>
             <input type="time" id="time1" name="time1" required>
-
             <ul>
                 <li><label for="examRoomTemperature1">Temperatura da Sala de Exames:</label>
-                    <input type="text" id="examRoomTemperature1" name="examRoomTemperature1" required></li>
+                    <input type="number" id="examRoomTemperature1" name="examRoomTemperature1" required inputmode="numeric"></li>
                 <li><label for="examRoomHumidity1">Umidade da Sala de Exames:</label>
-                    <input type="text" id="examRoomHumidity1" name="examRoomHumidity1" required></li>
+                    <input type="number" id="examRoomHumidity1" name="examRoomHumidity1" required inputmode="numeric"></li>
                 <li><label for="machineRoomTemperature1">Temperatura da Sala de Máquina:</label>
-                    <input type="text" id="machineRoomTemperature1" name="machineRoomTemperature1" required></li>
+                    <input type="number" id="machineRoomTemperature1" name="machineRoomTemperature1" required inputmode="numeric"></li>
                 <li><label for="machineRoomHumidity1">Umidade da Sala de Máquina:</label>
-                    <input type="text" id="machineRoomHumidity1" name="machineRoomHumidity1" required></li>
+                    <input type="number" id="machineRoomHumidity1" name="machineRoomHumidity1" required inputmode="numeric"></li>
                 <li><label for="chillerWaterTemperature1">Temperatura da Água do Chiller:</label>
-                    <input type="text" id="chillerWaterTemperature1" name="chillerWaterTemperature1" required></li>
-                <li><label for="heliumPressure1">Pressão do Hélio (PSI):</label>
-                    <input type="text" id="heliumPressure1" name="heliumPressure1" pattern="[0-9]*" inputmode="decimal" required></li>
-                <li><label for="heliumLevel1">Nível do Hélio (%):</label>
-                    <input type="text" id="heliumLevel1" name="heliumLevel1" pattern="[0-9]*" inputmode="decimal" required></li>
+                    <input type="number" id="chillerWaterTemperature1" name="chillerWaterTemperature1" required inputmode="numeric"></li>
+                <li><label for="heliumLevel1">Nível do Hélio:</label>
+                    <input type="number" id="heliumLevel1" name="heliumLevel1" required inputmode="numeric"></li>
             </ul>
         </div>
 
         <!-- RM GE Antiga Section -->
         <div class="card">
-            <h3>RESSONÂNCIA GE ANTIGA</h3>
+            <h3>RM GE Antiga</h3>
             <label for="date2">Data:</label>
             <input type="date" id="date2" name="date2" required>
-
             <label for="time2">Hora:</label>
             <input type="time" id="time2" name="time2" required>
-
             <ul>
-                <li><label for="heliumPressure2">Pressão do Hélio (PSI):</label>
-                    <input type="text" id="heliumPressure2" name="heliumPressure2" pattern="[0-9]*" inputmode="decimal" required></li>
-                <li><label for="heliumLevel2">Nível de Hélio (%):</label>
-                    <input type="text" id="heliumLevel2" name="heliumLevel2" pattern="[0-9]*" inputmode="decimal" required></li>
+                <li><label for="heliumPressure2">Pressão do Hélio:</label>
+                    <input type="number" id="heliumPressure2" name="heliumPressure2" required inputmode="numeric"></li>
+                <li><label for="heliumLevel2">Nível de Hélio:</label>
+                    <input type="number" id="heliumLevel2" name="heliumLevel2" required inputmode="numeric"></li>
                 <li><label for="coldHead2">Cold Head:</label>
-                    <input type="text" id="coldHead2" name="coldHead2" required></li>
+                    <input type="number" id="coldHead2" name="coldHead2" required inputmode="numeric"></li>
                 <li><label for="chillerTemperature2">Temperatura do Chiller:</label>
-                    <input type="text" id="chillerTemperature2" name="chillerTemperature2" required></li>
+                    <input type="number" id="chillerTemperature2" name="chillerTemperature2" required inputmode="numeric"></li>
                 <li><label for="waterFlow2">Fluxo da Água:</label>
-                    <input type="text" id="waterFlow2" name="waterFlow2" required></li>
+                    <input type="number" id="waterFlow2" name="waterFlow2" required inputmode="numeric"></li>
                 <li><label for="waterTemperature2">Temperatura da Água:</label>
-                    <input type="text" id="waterTemperature2" name="waterTemperature2" required></li>
+                    <input type="number" id="waterTemperature2" name="waterTemperature2" required inputmode="numeric"></li>
                 <li><label for="examRoomTemperature2">Temperatura da Sala de Exames:</label>
-                    <input type="text" id="examRoomTemperature2" name="examRoomTemperature2" required></li>
+                    <input type="number" id="examRoomTemperature2" name="examRoomTemperature2" required inputmode="numeric"></li>
                 <li><label for="examRoomHumidity2">Umidade da Sala de Exames:</label>
-                    <input type="text" id="examRoomHumidity2" name="examRoomHumidity2" required></li>
+                    <input type="number" id="examRoomHumidity2" name="examRoomHumidity2" required inputmode="numeric"></li>
                 <li><label for="machineRoomTemperature2">Temperatura da Sala de Máquina:</label>
-                    <input type="text" id="machineRoomTemperature2" name="machineRoomTemperature2" required></li>
+                    <input type="number" id="machineRoomTemperature2" name="machineRoomTemperature2" required inputmode="numeric"></li>
                 <li><label for="machineRoomHumidity2">Umidade da Sala de Máquina:</label>
-                    <input type="text" id="machineRoomHumidity2" name="machineRoomHumidity2" required></li>
+                    <input type="number" id="machineRoomHumidity2" name="machineRoomHumidity2" required inputmode="numeric"></li>
             </ul>
         </div>
 
         <!-- RM GE Nova Section -->
         <div class="card">
-            <h3>RESSONÂNCIA GE NOVA</h3>
+            <h3>RM GE Nova</h3>
             <label for="date3">Data:</label>
             <input type="date" id="date3" name="date3" required>
-
             <label for="time3">Hora:</label>
             <input type="time" id="time3" name="time3" required>
-
             <ul>
-                <li><label for="heliumPressure3">Pressão do Hélio (PSI):</label>
-                    <input type="text" id="heliumPressure3" name="heliumPressure3" pattern="[0-9]*" inputmode="decimal" required></li>
-                <li><label for="heliumLevel3">Nível de Hélio (%):</label>
-                    <input type="text" id="heliumLevel3" name="heliumLevel3" pattern="[0-9]*" inputmode="decimal" required></li>
+                <li><label for="heliumPressure3">Pressão do Hélio:</label>
+                    <input type="number" id="heliumPressure3" name="heliumPressure3" required inputmode="numeric"></li>
+                <li><label for="heliumLevel3">Nível de Hélio:</label>
+                    <input type="number" id="heliumLevel3" name="heliumLevel3" required inputmode="numeric"></li>
                 <li><label for="coldHead3">Cold Head:</label>
-                    <input type="text" id="coldHead3" name="coldHead3" required></li>
+                    <input type="number" id="coldHead3" name="coldHead3" required inputmode="numeric"></li>
                 <li><label for="chillerTemperature3">Temperatura do Chiller:</label>
-                    <input type="text" id="chillerTemperature3" name="chillerTemperature3" required></li>
+                    <input type="number" id="chillerTemperature3" name="chillerTemperature3" required inputmode="numeric"></li>
                 <li><label for="waterFlow3">Fluxo da Água:</label>
-                    <input type="text" id="waterFlow3" name="waterFlow3" required></li>
+                    <input type="number" id="waterFlow3" name="waterFlow3" required inputmode="numeric"></li>
                 <li><label for="waterTemperature3">Temperatura da Água:</label>
-                    <input type="text" id="waterTemperature3" name="waterTemperature3" required></li>
+                    <input type="number" id="waterTemperature3" name="waterTemperature3" required inputmode="numeric"></li>
                 <li><label for="examRoomTemperature3">Temperatura da Sala de Exames:</label>
-                    <input type="text" id="examRoomTemperature3" name="examRoomTemperature3" required></li>
+                    <input type="number" id="examRoomTemperature3" name="examRoomTemperature3" required inputmode="numeric"></li>
                 <li><label for="examRoomHumidity3">Umidade da Sala de Exames:</label>
-                    <input type="text" id="examRoomHumidity3" name="examRoomHumidity3" required></li>
+                    <input type="number" id="examRoomHumidity3" name="examRoomHumidity3" required inputmode="numeric"></li>
                 <li><label for="machineRoomTemperature3">Temperatura da Sala de Máquina:</label>
-                    <input type="text" id="machineRoomTemperature3" name="machineRoomTemperature3" required></li>
+                    <input type="number" id="machineRoomTemperature3" name="machineRoomTemperature3" required inputmode="numeric"></li>
                 <li><label for="machineRoomHumidity3">Umidade da Sala de Máquina:</label>
-                    <input type="text" id="machineRoomHumidity3" name="machineRoomHumidity3" required></li>
+                    <input type="number" id="machineRoomHumidity3" name="machineRoomHumidity3" required inputmode="numeric"></li>
             </ul>
         </div>
 
@@ -118,20 +110,20 @@
             <h3>Tomografia</h3>
             <label for="date4">Data:</label>
             <input type="date" id="date4" name="date4" required>
-
             <label for="time4">Hora:</label>
             <input type="time" id="time4" name="time4" required>
-
             <ul>
                 <li><label for="examRoomTemperature4">Temperatura da Sala:</label>
-                    <input type="text" id="examRoomTemperature4" name="examRoomTemperature4" required></li>
+                    <input type="number" id="examRoomTemperature4" name="examRoomTemperature4" required inputmode="numeric"></li>
                 <li><label for="examRoomHumidity4">Umidade da Sala:</label>
-                    <input type="text" id="examRoomHumidity4" name="examRoomHumidity4" required></li>
+                    <input type="number" id="examRoomHumidity4" name="examRoomHumidity4" required inputmode="numeric"></li>
             </ul>
         </div>
 
         <!-- Botões de Ação -->
         <div class="actions">
+            <button type="button" onclick="saveDataLocally(gatherFormData())">Salvar Dados</button>
+            <button type="button" onclick="loadDataLocally()">Carregar Dados</button>
             <button type="button" onclick="exportToWhatsApp()">Exportar para WhatsApp</button>
         </div>
     </div>
@@ -140,7 +132,6 @@
     <footer class="footer">
         <p>&copy; 2024 Wanderson Portela de Moura. Todos os direitos reservados.</p>
     </footer>
-
     <script src="script.js"></script>
 </body>
 </html>

@@ -8,7 +8,6 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-
 .container {
     flex: 1;
     max-width: 600px;
@@ -18,43 +17,36 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
-
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;
 }
-
 .header .title-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-
 .header img {
     max-width: 100px;
 }
-
 .header h2 {
     margin: 0;
     color: #333;
-    font-size: 20px; /* Diminuir o tamanho do título */
+    font-size: 20px;
 }
-
 .header h3 {
     margin: 5px 0 0;
     color: #666;
-    font-size: 16px; /* Subtítulo */
+    font-size: 16px;
 }
-
 .card {
     background-color: #e6e6e6;
     padding: 10px 15px;
     border-radius: 5px;
     margin-bottom: 15px;
 }
-
 .card h3 {
     background-color: #003366;
     color: white;
@@ -64,21 +56,19 @@ body {
     margin-top: 0;
     margin-bottom: 15px;
 }
-
 .card label {
     font-weight: bold;
     display: block;
     margin: 5px 0;
 }
-
 .card ul {
     list-style-type: disc;
     padding-left: 20px;
 }
-
 .card input[type="text"],
 .card input[type="date"],
-.card input[type="time"] {
+.card input[type="time"],
+.card input[type="number"] {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
@@ -86,12 +76,10 @@ body {
     border-radius: 4px;
     box-sizing: border-box;
 }
-
 .actions {
     display: flex;
     justify-content: space-between;
 }
-
 button {
     width: 100%;
     padding: 10px;
@@ -103,27 +91,23 @@ button {
     font-size: 16px;
     text-align: center;
 }
-
 button:hover {
     background-color: #0056b3;
 }
-
 @media (max-width: 600px) {
     .container {
         padding: 10px;
     }
-
     .card input[type="text"],
     .card input[type="date"],
-    .card input[type="time"] {
+    .card input[type="time"],
+    .card input[type="number"] {
         font-size: 14px;
     }
-
     button {
         font-size: 14px;
     }
 }
-
 /* Estilização do rodapé */
 .footer {
     text-align: center;
