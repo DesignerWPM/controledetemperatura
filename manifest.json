@@ -1,20 +1,16 @@
 {
     "name": "Controle de Temperatura e Umidade",
-    "short_name": "TempHumidity",
-    "start_url": "/index.html",
+    "short_name": "Controle de Temperatura",
+    "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",
-    "theme_color": "#003366",
+    "theme_color": "#004AAD",
     "icons": [
-        {
-            "src": "images/icon-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "images/icon-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        }
+      {
+        "src": "https://api.iconify.design/lucide:monitor.svg?color=%23004AAD",
+        "sizes": "192x192",
+        "type": "image/svg+xml",
+        "purpose": "any"
+      }
     ]
-}
+  }
